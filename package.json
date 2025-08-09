@@ -2,10 +2,10 @@
   "name": "ts-package-starter",
   "version": "1.0.0",
   "description": "_\"My personal website to connect and share something with client and audience\"_",
-  "homepage": "https://github.com/nyomansunima/ts-package-starter#readme",
   "keywords": [],
   "author": "Nyoman Sunima",
   "license": "ISC",
+  "homepage": "https://github.com/nyomansunima/ts-package-starter#readme",
   "bugs": {
     "url": "https://github.com/nyomansunima/ts-package-starter/issues"
   },
@@ -17,9 +17,11 @@
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    ".": "./dist/index.js",
-    "./package.json": "./package.json"
+    ".": "./dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -31,6 +33,7 @@
     "build": "tsdown",
     "dev": "tsdown --watch"
   },
+  "peerDependencies": {},
   "devDependencies": {
     "@antfu/eslint-config": "^5.2.0",
     "eslint": "^9.32.0",
