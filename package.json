@@ -1,6 +1,7 @@
 {
   "name": "ts-package-starter",
   "version": "1.0.0",
+  "type": "module",
   "description": "_\"My personal website to connect and share something with client and audience\"_",
   "keywords": [],
   "author": "Nyoman Sunima",
@@ -31,7 +32,8 @@
     "lint": "eslint . --fix",
     "test": "vitest",
     "build": "tsdown",
-    "dev": "tsdown --watch"
+    "dev": "tsdown --watch",
+    "clean": "rm -rf dist"
   },
   "peerDependencies": {},
   "devDependencies": {
