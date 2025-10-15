@@ -1,25 +1,25 @@
 {
   "name": "ts-package-starter",
-  "version": "1.0.0",
   "type": "module",
+  "version": "1.0.0",
   "description": "_\"My personal website to connect and share something with client and audience\"_",
-  "keywords": [],
   "author": "Nyoman Sunima",
   "license": "ISC",
   "homepage": "https://github.com/nyomansunima/ts-package-starter#readme",
-  "bugs": {
-    "url": "https://github.com/nyomansunima/ts-package-starter/issues"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nyomansunima/ts-package-starter.git"
   },
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/nyomansunima/ts-package-starter/issues"
+  },
+  "keywords": [],
   "exports": {
     ".": "./dist/index.js"
   },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -35,12 +35,12 @@
   },
   "peerDependencies": {},
   "devDependencies": {
-    "@antfu/eslint-config": "^5.2.1",
-    "bumpp": "^10.2.2",
-    "eslint": "^9.33.0",
+    "@antfu/eslint-config": "^5.4.1",
+    "bumpp": "^10.3.1",
+    "eslint": "^9.37.0",
     "prettier": "^3.6.2",
-    "tsdown": "^0.14.1",
-    "typescript": "^5.9.2",
+    "tsdown": "^0.15.7",
+    "typescript": "^5.9.3",
     "vitest": "^3.2.4"
   }
 }
