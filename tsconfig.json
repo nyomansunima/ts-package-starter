@@ -1,24 +1,24 @@
 {
   "compilerOptions": {
     "target": "esnext",
+    "jsx": "react",
     "lib": ["esnext", "dom"],
     "moduleDetection": "force",
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
+    "allowJs": true,
     "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
     "noUnusedLocals": true,
     "declaration": true,
     "emitDeclarationOnly": true,
+    "noEmit": true,
     "esModuleInterop": true,
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
-    "skipLibCheck": true,
-    "strictNullChecks": true,
-    "noEmit": true,
-    "allowJs": true,
-    "noImplicitAny": false,
-    "jsx": "react"
+    "skipLibCheck": true
   },
   "include": ["src"]
 }

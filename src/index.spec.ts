@@ -1,7 +1,7 @@
-import { describe, expect, test } from "vitest"
+import { describe, expect } from 'vitest'
 
-describe("Main test", () => {
-  test("dummy test", () => {
+describe('main test', () => {
+  it('dummy test', () => {
     const data = 3
     expect(data).toBe(3)
   })
